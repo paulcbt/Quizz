@@ -45,6 +45,9 @@ function changequest(){
 	for (i = 0; i <= quizz.length; i++) {
 			var insertion = quizz[i].question;
 insertq.innerHTML = insertion;
+if (i == (i-i+1)) {
+  return;
+}
 console.log(quizz[i].question);
 
 }
@@ -53,12 +56,17 @@ console.log(quizz[i].question);
 
 //changer de réponse
 
+
 function changerep(){
 	for (var i = 0; i < quizz.length; i++) {
 		recuprep1.innerHTML = quizz[i].reponse[0];
 		recuprep2.innerHTML = quizz[i].reponse[1];
 		recuprep3.innerHTML = quizz[i].reponse[2];
+    if (i == (i-i+1)) {
+      return;
+    }
 	}
+
 }
 
 
