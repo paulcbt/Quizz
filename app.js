@@ -7,34 +7,58 @@ var quizz =[
 
         	{"question":'quel est le record du monde sur 100m?',
         	"reponse":['8,90s',' 9,58s', '9,69s']},
+
+
+        	{"question":'derniere question?',
+        	"reponse":['derneir',' der', '9efes']},
         	];
 
- var insert = document.getElementById('question');
-   	insert.innerHTML = quizz[0].question;
 
 
+
+
+//question de début
+ var insertq = document.getElementById('question');
+   	insertq.innerHTML = quizz[0].question;
+
+rep1.innerHTML = quizz[0].reponse[0];
+rep2.innerHTML = quizz[0].reponse[1];
+rep3.innerHTML = quizz[0].reponse[2];
 
 
 var score=0;
 var recupv = document.getElementById('vraie');
-var recupq = document.getElementById('question');
 var recuprep1 = document.getElementById('rep1');
 var recuprep2 = document.getElementById('rep2');
 var recuprep3 = document.getElementById('rep3');
 
 recupv.addEventListener("click", changev , false);
 recupv.addEventListener("click", changequest , false);
+recupv.addEventListener("click", changerep , false);
 
-rep1.innerHTML = quizz[0].reponse[0];
-rep2.innerHTML = quizz[0].reponse[1];
-rep3.innerHTML = quizz[0].reponse[2];
+
+
+
+//changer de quetsion
 
 function changequest(){
-	for (var i = 0; i < 20; i++) {
+	for (i = 0; i <= quizz.length; i++) {
+			var insertion = quizz[i].question;
+insertq.innerHTML = insertion;
+console.log(quizz[i].question);
 
-	insert.innerHTML = quizz[i].question;
 }
 
+}
+
+//changer de réponse
+
+function changerep(){
+	for (var i = 0; i < quizz.length; i++) {
+		recuprep1.innerHTML = quizz[i].reponse[0];
+		recuprep2.innerHTML = quizz[i].reponse[1];
+		recuprep3.innerHTML = quizz[i].reponse[2];
+	}
 }
 
 
@@ -43,29 +67,25 @@ function changequest(){
 function changev(){
 	score++;
 	alert("bonne réponse score: "+score);
-	var quest1 ="test";
-	vraie.innerHTML= quest1;
-	
-
 }
 
 
+// mauvaise réponse
 
 
-var recupf = document.getElementsByClassName('faux'); 
-
-
-
+var recupf = document.getElementsByClassName('faux');
 
 for (var i =0; i < recupf.length; i++) {
 	recupf[i].addEventListener("click",changef,false);
+	recupf[i].addEventListener("click",changequest,false);
+	recupf[i].addEventListener("click",changerep,false);
 	console.log(i);
 }
 
 
 
 
-	function changef(){	
+	function changef(){
 	alert("tu as selectionné une mauvaise réponse");
 
 	}
