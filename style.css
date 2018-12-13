@@ -1,20 +1,132 @@
-body{
-	width: 100%;
-	height:100%;
-	margin:0;
+html {
 	padding: 0;
-	background-color: #5089FF;
+	margin: 0;
 }
 
-
-
-#vraie{
-	background-color: green;
-	width: 20px;
-	margin: auto;
-	padding: 100px;
+#index {
+	background-image: url("img/bg-index.jpg");
 }
 
-#faux{
-	background-color: blue;
+h1, h2, p, a {
+	font-family: "Montserrat", Arial, sans-serif;
 }
+
+h1 {
+	margin-left: 300px;
+	margin-bottom: 50px;
+	padding: 30px 0;
+	display: block;
+	text-align: left;
+	font-weight: bold;
+	border-bottom: solid 1px #ffffff;
+}
+
+p.cat {
+	text-align: center;
+}
+
+p {
+	display: block;
+	float: right;
+	clear: both;
+	padding: 20px;
+	width: 500px;
+	font-size: 18px;
+	text-align: left;
+	color: #12e6c8;
+	background-color: #1e0e52;
+	border: solid 5px #12e6c8;
+	transition: width 1s ease, background-color 0.7s ease, color 0.7s ease;
+
+}
+
+p:hover {
+	width: 700px;
+	color: #a287f4;
+	background-color: #12e6c8;
+	border: solid 5px #a287f4;
+	transition: width 1s ease, background-color 0.7s ease, color 0.7s ease;
+}
+
+a {
+	text-align: left;
+	color: #12e6c8;
+	text-decoration: none;
+	transition: width 1s ease, background-color 0.7s ease, color 0.7s ease;
+
+}
+
+a:hover {
+	color: #a287f4;
+	text-decoration: none;
+	transition: width 1s ease, background-color 0.7s ease, color 0.7s ease;
+}
+
+#footer {
+	display: block;
+	margin-right: 300px;
+	margin-top: 200px;
+	clear: both;
+	height: 70px;
+	display: block;
+	border-top: solid 1px #ffffff;
+}
+
+/* geo */
+
+#pt-pays {
+	background-image: url("img/bg-pt-pays.jpg");
+}
+
+#cinq-tigres {
+	background-image: url("img/bg-5tigres.jpg");
+}
+
+#dernier-ue {
+	background-image: url("img/bg-croatie.jpg");
+}
+
+#derniere-merveille {
+	background-image: url("img/bg-merveille.jpg");
+}
+
+#peuple {
+	background-image: url("img/bg-peuple.jpg");
+}
+
+#montagnes {
+	background-image: url("img/bg-montagne.jpg");
+}
+
+body #constantinople {
+	background-image: url("img/bg-sofia.jpg");
+}
+
+body #cathedrale {
+	background-image: url("img/bg-cathedrale.jpg");
+}
+
+body #cap-bresil {
+	background-image: url("img/bg-cap-bresil.jpg");
+}
+
+body #gde-barriere {
+	background-image: url("img/bg-gde-barriere.jpg");
+}
+
+body #pt-pays {
+	background-image: url("img/bg-pt-pays.jpg");
+}
+
+body #commonwealth {
+	background-image: url("img/bg-commonwealth.jpg");
+}
+
+body #gaborone {
+	background-image: url("img/bg-gaborone.jpg");
+}
+
+body #pt-pays {
+	background-image: url("img/bg-pt-pays.jpg");
+}
+
