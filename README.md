@@ -1,2 +1,0 @@
-# Quizz
-Quizz pour LPMN
