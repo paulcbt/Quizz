@@ -1,16 +1,36 @@
 var quizz =[
-           {"question" :'quel es le reocrdman de medaille aux jo?',
-        	"reponse":['bolt','phelps', 'lacourt']},
+           {"question" :'Quel athlète est recordman de médailles olympiques ?',
+        	"reponse":['Usain Bolt','Michael Phelps', 'Carl Lewis']},
 
-        	{"question":'Quel est la longueur d’une table de ping pong?',
+        	{"question":'Quelle est la longueur d’une table de ping pong ?',
         	"reponse":['2,74m',' 3,12m', '4m']},
 
-        	{"question":'quel est le record du monde sur 100m?',
+        	{"question":'Quel est le record du monde sur 100m ?',
         	"reponse":['8,90s',' 9,58s', '9,69s']},
 
+        	{"question":'Quelle est la distance d’un marathon ',
+        	"reponse":['40,210km','42,195km', '44,365km']},
 
-        	{"question":'derniere question?',
-        	"reponse":['derneir',' der', '9efes']},
+          {"question":'A quoi correspond le maillot à pois du tour de France ? ',
+          "reponse":['Meilleur jeune','Meilleur grimpeur', 'Plus grande combativité']},
+
+          {"question":'Quel est le record, en nba, du plus grand nombre de panier à 3 point
+         marqué sur un match? ',
+          "reponse":['10','12 ','14']},
+
+          {"question":'Comment s’appelle la personne qui porte les clubs de golf durant une
+         partie ? ',
+          "reponse":['Un caddie','Un clubeur','Un golfeur']},
+
+          {"question":'Au baseball, comment s’appelle un coup qui permet de faire un tour de
+         circuit ?',
+          "reponse":['Home run','Hit run','Bat run']},
+
+          {"question":'Combien de temps a durée la plus longue partie d’échec de l’histoire ?',
+          "reponse":['3h43','20h15','8h12']},
+
+          {"question":'n quelle année Yannick Noah a t-il gagné Roland Garros ?',
+          "reponse":['1978',' 1983','1997']},
         	];
 
 
@@ -88,7 +108,7 @@ for (var i =0; i < recupf.length; i++) {
 	recupf[i].addEventListener("click",changequest,false);
 	recupf[i].addEventListener("click",changerep,false);
 	console.log(i);
-} 
+}
 
 
 
