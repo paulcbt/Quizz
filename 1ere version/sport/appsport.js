@@ -1,15 +1,15 @@
 var quizz =[
-           {"question" :'quel es le recordman de medaille aux jo?',
-        	"reponse":['bolt','phelps', 'lacourt']},
+           {"question" :'Quel est le recordman de medaille aux JO ?',
+        	"reponse":['Bolt','Phelps', 'Lacourt']},
 
-        	{"question":'Quelles est la longueur d’une table de ping pong?',
+        	{"question":'Quelle est la longueur d’une table de ping pong ?',
         	"reponse":['2,74m',' 3,12m', '4m']},
 
-        	{"question":'quel est le record du monde sur 100m?',
+        	{"question":'Quel est le record du monde sur 100m ?',
         	"reponse":['8,90s',' 9,58s', '9,69s']},
 
 
-        	{"question":'derniere question',
+        	{"question":'Derniere question',
         	"reponse":['dernier1',' der2', 'der3']},
         	];
 
