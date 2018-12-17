@@ -1,12 +1,12 @@
 var quizz =[
-           {"question" :'Quel est le recordman de medaille aux JO ?',
-        	"reponse":['Bolt','Phelps', 'Lacourt']},
+           {"question" :'Quel élément du Tableau Périodique des Eléments est symbolisé par la lettre N ?',
+        	"reponse":['Potassium','Azote', 'Sodium']},
 
-        	{"question":'Quelle est la longueur d’une table de ping pong ?',
-        	"reponse":['2,74m',' 3,12m', '4m']},
+        	{"question":'Quel grand physicien, prix Nobel, découvrit la radioactivité ?',
+        	"reponse":['Henri Becquerel','John Dalton', 'Frédéric Joliot-Curie']},
 
-        	{"question":'Quel est le record du monde sur 100m ?',
-        	"reponse":['8,90s',' 9,58s', '9,69s']},
+        	{"question":'Quelle est la plus grosse artère de notre corps ?',
+        	"reponse":['Jugulaire','Aorte', 'Carotide']},
 
 
         	{"question":'Derniere question',
