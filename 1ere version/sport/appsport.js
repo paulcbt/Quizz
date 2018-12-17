@@ -1,36 +1,16 @@
 var quizz =[
-           {"question" :'Quel athlète est recordman de médailles olympiques ?',
-        	"reponse":['Usain Bolt','Michael Phelps', 'Carl Lewis']},
+           {"question" :'quel es le recordman de medaille aux jo?',
+        	"reponse":['bolt','phelps', 'lacourt']},
 
-        	{"question":'Quelle est la longueur d’une table de ping pong ?',
+        	{"question":'Quelles est la longueur d’une table de ping pong?',
         	"reponse":['2,74m',' 3,12m', '4m']},
 
-        	{"question":'Quel est le record du monde sur 100m ?',
+        	{"question":'quel est le record du monde sur 100m?',
         	"reponse":['8,90s',' 9,58s', '9,69s']},
 
-        	{"question":'Quelle est la distance d’un marathon ',
-        	"reponse":['40,210km','42,195km', '44,365km']},
 
-          {"question":'A quoi correspond le maillot à pois du tour de France ? ',
-          "reponse":['Meilleur jeune','Meilleur grimpeur', 'Plus grande combativité']},
-
-          {"question":'Quel est le record, en nba, du plus grand nombre de panier à 3 point
-         marqué sur un match? ',
-          "reponse":['10','12 ','14']},
-
-          {"question":'Comment s’appelle la personne qui porte les clubs de golf durant une
-         partie ? ',
-          "reponse":['Un caddie','Un clubeur','Un golfeur']},
-
-          {"question":'Au baseball, comment s’appelle un coup qui permet de faire un tour de
-         circuit ?',
-          "reponse":['Home run','Hit run','Bat run']},
-
-          {"question":'Combien de temps a durée la plus longue partie d’échec de l’histoire ?',
-          "reponse":['3h43','20h15','8h12']},
-
-          {"question":'n quelle année Yannick Noah a t-il gagné Roland Garros ?',
-          "reponse":['1978',' 1983','1997']},
+        	{"question":'derniere question',
+        	"reponse":['dernier1',' der2', 'der3']},
         	];
 
 
@@ -65,9 +45,6 @@ function changequest(){
 	for (i = 0; i <= quizz.length; i++) {
 			var insertion = quizz[i].question;
 insertq.innerHTML = insertion;
-if (i == (i-i+1)) {
-  return;
-}
 console.log(quizz[i].question);
 
 }
@@ -76,17 +53,12 @@ console.log(quizz[i].question);
 
 //changer de réponse
 
-
 function changerep(){
 	for (var i = 0; i < quizz.length; i++) {
 		recuprep1.innerHTML = quizz[i].reponse[0];
 		recuprep2.innerHTML = quizz[i].reponse[1];
 		recuprep3.innerHTML = quizz[i].reponse[2];
-    if (i == (i-i+1)) {
-      return;
-    }
 	}
-
 }
 
 

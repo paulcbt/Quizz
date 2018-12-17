@@ -115,7 +115,7 @@ body #gde-barriere {
 }
 
 body #pt-pays {
-	background-image: url("img/bg-pt-pays.jpg");
+	background-image: url("../img/bg-pt-pays.jpg");
 }
 
 body #commonwealth {
@@ -129,4 +129,3 @@ body #gaborone {
 body #pt-pays {
 	background-image: url("img/bg-pt-pays.jpg");
 }
-
